@@ -1,5 +1,5 @@
 {
-    "name": "st3ph/cakephp-softdeletablet",
+    "name": "st3ph/cakephp-softdeletable",
     "description": "CakePHP 3.x plugin to handle soft deletable models)",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "plugin", "soft deletable", "behavior", "trait"],
