@@ -1,0 +1,38 @@
+{
+    "name": "st3ph/cakephp-softdeletablet",
+    "description": "CakePHP 3.x plugin to handle soft deletable models)",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "plugin", "soft deletable", "behavior", "trait"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stéphane Litou",
+            "email": "contact@stephane-litou.com",
+            "homepage": "http://stephane-litou.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "cakephp/cakephp": ">=3.2.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "5.3.*",
+        "cakephp/cakephp-codesniffer": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "SoftDeletable\\": "src"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "SoftDeletable\\Test\\": "tests"
+        }
+    },
+
+    "minimum-stability": "beta"
+}
